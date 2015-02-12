@@ -78,6 +78,12 @@
                         case "float":
                             $assignType='double';
                             break;
+                        case "date":
+                            $assignType='date';
+                            break;
+                        case "timestamp":
+                            $assignType='timestamp';
+                            break;
                         default:
                             $assignType='string';
                     }
