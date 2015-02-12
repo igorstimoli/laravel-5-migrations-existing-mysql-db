@@ -65,6 +65,9 @@
                     $columnName=$row['COLUMN_NAME'];
                     $columnType=$row['DATA_TYPE'];
 
+
+                    //check just some DATA TYPE
+                    //PLEASE COMPLETE THIS switch with more types
                     switch($row['DATA_TYPE']) {
                         case "int":
                             $assignType='integer';
